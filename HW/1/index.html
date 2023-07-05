@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoping Card</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container border" id="container">
+    <div class="row">
+      <div class="col-md-8" id="shopping-cart">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>
+                <h3 style="margin-bottom: 30px">سبد خرید</h3>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="img/gray.png" width="60px" height="60px" style="margin-left: 50px" />تیشرت پنبه ای
+              </td>
+              <td>
+                <button class="minus-button" style="margin-top: 20px; padding-right: 10px">
+                  -</button><label style="
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      margin-top: 20px;
+                    ">1</label><button class="plus-button" style="margin-top: 20px">
+                  +
+                </button>
+              </td>
+              <td>
+                <div style="margin-top: 20px">
+                  <p style="display: inline">40000</p>
+                  <p style="display: inline">ريال</p>
+                </div>
+              </td>
+              <td>
+                <img src="img/close.png" width="20px" height="20px" style="margin-top: 20px" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/green.png" width="60px" height="60px" style="margin-left: 50px" />تیشرت نخی
+              </td>
+              <td>
+                <button class="minus-button" style="margin-top: 20px; padding-right: 10px">
+                  -</button><label style="
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      margin-top: 20px;
+                    ">1</label><button style="margin-top: 20px" class="plus-button">+</button>
+              </td>
+              <td>
+                <div style="margin-top: 20px">
+                  <p style="display: inline">50000</p>
+                  <p style="display: inline">ريال</p>
+                </div>
+              </td>
+              <td>
+                <img src="img/close.png" width="20px" height="20px" style="margin-top: 20px" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/pink.png" width="60px" height="60px" style="margin-left: 50px" />تیشرت کتان
+              </td>
+              <td>
+                <button class="minus-button" style="margin-top: 20px; padding-right: 10px">
+                  -</button><label style="
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      margin-top: 20px;
+                    ">1</label><button style="margin-top: 20px" class="plus-button">+</button>
+              </td>
+              <td>
+                <div style="margin-top: 20px">
+                  <p style="display: inline">60000</p>
+                  <p style="display: inline">ريال</p>
+                </div>
+              </td>
+              <td>
+                <img src="img/close.png" width="20px" height="20px" style="margin-top: 20px" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-top: 80px; margin-bottom: 20px">
+          <img src="img/back.png" width="20px" height="20px" style="transform: scaleX(-1)" />
+          <label>بازگشت به خرید</label>
+        </div>
+      </div>
+      <div class="col-md-4" id="sum">
+        <div style="margin-top: 30px">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>
+                  <h4 style="margin-bottom: 30px">خلاصه</h4>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3 محصول</td>
+                <div>
+                  <td style="padding-right: 50%">132000</td>
+                  <td style="padding-left: 35%">ريال</td>
+                </div>
+              </tr>
+            </tbody>
+          </table>
+          <form class="form-group">
+            <div>
+              <label class="mt-4" for="#select" class="form-header">حمل و نقل</label>
+              <select id="select" class="form-select">
+                <option>پست تیپاکس - ريال5000</option>
+                <option>پست معمولی - ريال4000</option>
+                <option>پست پیشتاز - ريال6000</option>
+              </select>
+            </div>
+            <div class="mt-5 mb-2 pb-5 border-bottom border-secondary">
+              <label for="3text" class="from-label">کد تخفیف</label>
+              <input id="text" class="form-control" type="text" />
+            </div>
+            <div class="row">
+              <h5 class="col-8">قیمت کل (ريال)</h5>
+              <h5 class="col-1" id="sum2">0</h5>
+            </div>
+            <div class="text-center" style="margin: 50px">
+              <bottom class="btn btn-dark d-block">پرداخت</bottom>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

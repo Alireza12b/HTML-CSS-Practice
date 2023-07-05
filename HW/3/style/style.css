@@ -1,0 +1,39 @@
+html {
+    direction: rtl;
+    background-color: rgb(204, 204, 204);
+}
+
+.main-container-color {
+    background-color: rgb(204, 204, 204);
+}
+
+* {
+    font-family:IranSans ;
+}
+
+@font-face {
+    font-family: IranSans;
+    src: url(../fonts/IRANSansX-Bold.ttf);
+}
+
+img {
+    width: 35px;
+    height: 35px;
+}
+
+.txt-main {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.txt-gray {
+    color: gray;
+}
+
+.game {
+    background-color: rgb(235, 233, 233) !important;
+}
+
+.my-border {
+    border-bottom: 3px solid rgb(4, 133, 94);
+}
