@@ -2,6 +2,15 @@ html {
     direction: rtl;
 }
 
+* {
+    font-family: IRANSansX-Bold;
+}
+
+@font-face {
+    font-family: IRANSansX-Bold;
+    src: url(../fonts/IRANSansX-Bold.ttf);
+}
+
 #shopping-cart {
     background-color: white;
 }
